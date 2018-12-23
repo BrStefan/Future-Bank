@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fillViewport="true"
+    tools:context=".AccountFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/layout_backgroud_2">
+
+
+            <TextView
+                android:id="@+id/hellotextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/colorNewDark"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:text="Welcome Username" />
+
+            <TextView
+                android:id="@+id/infotextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/hellotextview"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorNewDark"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="User Information" />
+
+            <TextView
+                android:id="@+id/balanceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/infotextview"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorNewDark"
+                android:textSize="15sp"
+                android:text="Your Current Balance" />
+
+
+            <TextView
+                android:id="@+id/accountAdviceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/balanceTextView"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorNewDark"
+                android:textSize="15sp"
+                android:text="Maxim Budget for Today"/>
+
+
+            <TextView
+                android:id="@+id/accountAverageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/accountAdviceText"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorNewDark"
+                android:textSize="15sp"
+                android:text="Total Expenses Made Today "/>
+
+            <TextView
+                android:id="@+id/accountPrediction1Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/accountAverageText"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorNewDark"
+                android:textSize="15sp"
+                android:text="You spent a lot on ..."/>
+
+            <TextView
+                android:id="@+id/accountPrediction2Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/accountPrediction1Text"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorNewDark"
+                android:textSize="15sp"
+                android:text="You should save money for.."/>
+
+            <TextView
+                android:id="@+id/accountEventText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/accountPrediction2Text"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorNewDark"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:text="Your Next Event"/>
+
+
+            <TextView
+                android:id="@+id/accountDevelopText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="490dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@color/colorNewDark"
+                android:textSize="15sp"
+                android:text="Developed by Team Can't C "/>
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
